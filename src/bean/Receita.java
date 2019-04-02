@@ -9,6 +9,8 @@ public class Receita {
 	private Double valor;
 	private String referencia;
 	private String tipo;
+	private Long endereco;
+	private Long usuario;
 	
 	public Long getId() {
 		return id;
@@ -40,7 +42,17 @@ public class Receita {
 	public void setTipo(String tipo) {
 		this.tipo = tipo;
 	}
+	public Long getEndereco() {
+		return endereco;
+	}
+	public void setEndereco(Long endereco) {
+		this.endereco = endereco;
+	}
+	public Long getUsuario() {
+		return usuario;
+	}
+	public void setUsuario(Long usuario) {
+		this.usuario = usuario;
+	}
 	
-	
-
 }

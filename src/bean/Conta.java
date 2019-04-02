@@ -2,7 +2,7 @@ package bean;
 
 import java.util.Date;
 
-public class Conta {
+public class Conta extends Movimentacao {
 	
 	private Long id;
 	private int quantidadeParcela;

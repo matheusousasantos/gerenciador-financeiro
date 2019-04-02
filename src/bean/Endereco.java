@@ -8,6 +8,8 @@ public class Endereco {
 	private String complemento;
 	private String bairro;
 	private String cep;
+	private Long cidade;
+	private Long usuario;
 	
 	public Long getId() {
 		return id;
@@ -45,5 +47,17 @@ public class Endereco {
 	public void setCep(String cep) {
 		this.cep = cep;
 	}
-
+	public Long getCidade() {
+		return cidade;
+	}
+	public void setCidade(Long cidade) {
+		this.cidade = cidade;
+	}
+	public Long getUsuario() {
+		return usuario;
+	}
+	public void setUsuario(Long usuario) {
+		this.usuario = usuario;
+	}
+	
 }

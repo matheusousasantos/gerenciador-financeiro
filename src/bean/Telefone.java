@@ -4,6 +4,7 @@ public class Telefone {
 	
 	private Long id;
 	private String tipo;
+	private Long usuario;
 	
 	public Long getId() {
 		return id;
@@ -16,6 +17,12 @@ public class Telefone {
 	}
 	public void setTipo(String tipo) {
 		this.tipo = tipo;
+	}
+	public Long getUsuario() {
+		return usuario;
+	}
+	public void setUsuario(Long usuario) {
+		this.usuario = usuario;
 	}
 
 }

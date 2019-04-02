@@ -6,6 +6,8 @@ public class Usuario {
 	private String nome;
 	private String login;
 	private String senha;
+	private String sexo;
+	private Long endereco;
 	
 	public Long getId() {
 		return id;
@@ -30,6 +32,21 @@ public class Usuario {
 	}
 	public void setSenha(String senha) {
 		this.senha = senha;
+	}
+	public Long getEndereco() {
+		return endereco;
+	}
+	
+	
+	
+	public String getSexo() {
+		return sexo;
+	}
+	public void setSexo(String sexo) {
+		this.sexo = sexo;
+	}
+	public void setEndereco(Long endereco) {
+		this.endereco = endereco;
 	}
 
 }

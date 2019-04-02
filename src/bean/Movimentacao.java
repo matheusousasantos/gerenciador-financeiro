@@ -6,6 +6,7 @@ public class Movimentacao {
 	private String tipo;
 	private String descricao;
 	private Double valor;
+	private Long categoria;
 	
 	public Long getId() {
 		return id;
@@ -31,5 +32,11 @@ public class Movimentacao {
 	public void setValor(Double valor) {
 		this.valor = valor;
 	}
-
+	public Long getCategoria() {
+		return categoria;
+	}
+	public void setCategoria(Long categoria) {
+		this.categoria = categoria;
+	}
+	
 }
